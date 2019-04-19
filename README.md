@@ -1,6 +1,6 @@
 # CTEC 126 - Lab No. 2
 
-## Details
+## Details 
 
 This lab contains **two problems**. You are to use embedded JavaScript for each of the problems. If you want to externalize JavaScript for each problem, you can.
 

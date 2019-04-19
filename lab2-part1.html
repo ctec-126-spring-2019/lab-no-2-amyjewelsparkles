@@ -28,12 +28,36 @@
 <!-- Lab 2 - Part 1 JavaScript -->
 <script>
     function startThings(){
-        let romanNumeral; // do not modify
+        let romanNumeral = prompt('Please enter a number between 1- 10.'); // do not modify
         // your code goes here
         // be sure to assign the roman numeral to the variable romanNumeral
         // it will be used to display it on the web page using the code below
+        while (romanNumeral < 1 || romanNumeral > 10) {
+            alert('Error. Number not in range.');
+            romanNumeral = prompt('Please enter a number between 1- 10.');
+        }
 
-
+        if (romanNumeral == 1) {
+            romanNumeral = 'I';
+        }else if (romanNumeral == 2) {
+            romanNumeral = 'II';
+        }else if (romanNumeral == 3) {
+            romanNumeral = 'III';
+        }else if (romanNumeral == 4) {
+            romanNumeral = 'IV';
+        }else if (romanNumeral == 5) {
+            romanNumeral = 'V';
+        }else if (romanNumeral == 6) {
+            romanNumeral = 'VI';
+        }else if (romanNumeral == 7) {
+            romanNumeral = 'VII';
+        }else if (romanNumeral == 8) {
+            romanNumeral = 'VIII';
+        }else if (romanNumeral == 9) {
+            romanNumeral = 'IX';
+        }else if (romanNumeral == 10) {
+            romanNumeral = 'X';
+        }
 
         // do not modify start
         let outputDiv = document.getElementById('output');
